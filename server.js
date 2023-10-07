@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true })); // for parsing application/x-ww
 
 //http://localhost:3000/
 app.get("/", function (req, res) {
-    res.sendFile("./views/index.html");
+    res.sendFile("views/index.html");
 });
 
 //http://localhost:3000/profile
